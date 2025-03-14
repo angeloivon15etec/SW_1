@@ -11,21 +11,16 @@ Zero à Dez e calcule a média quando um botão de submit for pressionado! Faça
 validação dos campos de modo que usuário tenha que preencher todos os campos e
 todos numéricos</p>
 
-<form action="form01.php" method="get">
-<p>Digite seu nome: <input type="text" name="cxnome" id=""></p>
+    <form method="GET" action="form01.php">
+        Nome: <input type="text" name="nam">
+        Nota 1: <input type="number" name="num1" min="0" max="10">
+        Nota 2: <input type="number" name="num2" min="0" max="10">
+        Nota 3: <input type="number" name="num3" min="0" max="10">
+        <input type="submit" value="Calculo">
+    </form>
 
-<form action="form01.php" method="get">
-    <p>digite o um N°</p>
-<input type="number" id="quantity" name="quantity" min="0" max="10">
-<p>digite o um N°</p>
-<input type="number" id="quantity" name="quantity" min="0" max="10">
-<p>digite o um N°</p>
-<input type="number" id="quantity" name="quantity" min="0" max="10">
-
-
-
-
-</form>  
+   
+</form>
 
 
 </body>
